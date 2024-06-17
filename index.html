@@ -1,0 +1,76 @@
+
+
+<!-- This is a simple Awesome calculator created by swarupinfotech  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CalcStyle.css">
+    <title>Awesome Calculator</title>
+</head>
+<body>
+    <h1 class="center">&#9997;Calculate Me!</h1>
+    <div class="calculator">
+        <!-- Screen Is Here -->
+        <div class="screen">
+            <input type="text" placeholder="0" readonly>
+        </div>
+
+        <!-- Buttons Are Here -->
+        <div class="btn-box">
+            <button onclick="clr()" class="btn orange-btn">C</button>
+            <button onclick="dlt()" class="btn orange-btn">&#8678</button>
+            <button onclick="insert('%')" class="btn orange-btn">&#37</button>
+            <button onclick="insert('/')" class="btn orange-btn">&#247</button>
+
+            <button onclick="insert('7')" class="btn">7</button>
+            <button onclick="insert('8')" class="btn">8</button>
+            <button onclick="insert('9')" class="btn">9</button>
+            <button onclick="insert('*')" class="btn orange-btn">&#215</button>
+
+            <button onclick="insert('4')" class="btn">4</button>
+            <button onclick="insert('5')" class="btn">5</button>
+            <button onclick="insert('6')" class="btn">6</button>
+            <button onclick="insert('-')" class="btn orange-btn">&#8722</button>
+
+            <button onclick="insert('1')" class="btn">1</button>
+            <button onclick="insert('2')" class="btn">2</button>
+            <button onclick="insert('3')" class="btn">3</button>
+            <button onclick="insert('+')" class="btn orange-btn">&#43</button>
+
+            <button onclick="insert('00')" class="btn">00</button>
+            <button onclick="insert('0')" class="btn">0</button>
+            <button onclick="insert('.')" class="btn">.</button>
+            <button onclick="calc()" class="btn equal orange-btn">&#61</button>
+        </div>
+    </div>
+
+    <footer>
+        <span class="copyright"><p  style="text-align:center;">&copy; 2023 <a href="https://swarupinfotech.github.io" class="ab">SwarupInfotech</a> Pvt. Ltd.</p></span>
+        <div class="line"></div>
+
+        <h3 class="center">Change Theme</h3>
+
+        <div class="color-box">
+            <div class="color-changer blue"></div>
+            <div class="color-changer red"></div>
+            <div class="color-changer orange"></div>
+            <div class="color-changer grey"></div>
+            <div class="color-changer cyan"></div>
+            <div class="color-changer pink"></div>
+            <div class="color-changer purple"></div>
+
+            <div class="color-changer yellow"></div>
+            <div class="color-changer green"></div>
+            <div class="color-changer white"></div>
+            <div class="color-changer skyblue"></div>
+            <div class="color-changer black"></div>
+
+        </div>
+    </footer>
+
+    <script src="./CalcJavaScript.js"></script>
+</body>
+</html>
